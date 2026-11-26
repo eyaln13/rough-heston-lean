@@ -1,0 +1,32 @@
+Theorem 1.1 verification record
+2026-11-26T13:33:50+00:00
+Lean (version 4.35.0, arm64-apple-darwin24.6.0, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+
+Source verification
+535 project Lean modules matched the isolated verification source by SHA-256.
+396 modules and all of their local dependencies matched the preceding clean source build.
+139 new or transitively changed modules were compiled in isolation.
+The pinned revisions and from-source reproduction commands are in ../VERIFICATION.md and README.md.
+
+Endpoint source files
+f953799bab213684e3554a6adf0bba5749a447047fa8eb7b2ca0607358989d25  han/RoughHestonVarianceTheorem.lean
+1e31fc708367856fbefd5f459c517ab311060f20d7bd9f89fcee769208fcd72a  han/RoughHestonFullTheorem.lean
+
+Lean acceptance check
+import RoughHestonFullTheorem
+
+example : RoughHeston.Theorem1_1 := RoughHeston.theorem1_1
+example : RoughHeston.FullRoughHestonTheorem := RoughHeston.theorem1_1_full
+
+#print axioms RoughHeston.theorem1_1
+#print axioms RoughHeston.theorem1_1_full
+
+'RoughHeston.theorem1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.theorem1_1_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+lean_exit=0
+
+Kernel replay of the two endpoint modules from their imported environments
+leanchecker --verbose RoughHestonVarianceTheorem RoughHestonFullTheorem
+replaying RoughHestonFullTheorem
+replaying RoughHestonVarianceTheorem
+leanchecker_exit=0

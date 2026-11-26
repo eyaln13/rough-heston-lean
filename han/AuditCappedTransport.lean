@@ -1,0 +1,10 @@
+import BridgeCappedGirsanovTransport
+
+#print axioms SHEStochastic.ScalarEnergyCapGirsanovLaw.law
+#print axioms SHEStochastic.ScalarGirsanovCoordinateShift.finite_cap
+#print axioms SHEStochastic.ScalarGirsanovCoordinateShift.primitive
+#print axioms SHEStochastic.ScalarGirsanovCappedTransport.change
+#print axioms SHEStochastic.ScalarGirsanovLocalization.change
+#print axioms RoughHeston.GirsanovPort.native_cap_change_with_shift
+#print axioms RoughHeston.GirsanovPort.nativeCoordinate_frozen_martingales
+#print axioms RoughHeston.GirsanovPort.jointCappedGirsanov

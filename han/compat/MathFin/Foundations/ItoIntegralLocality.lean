@@ -1,0 +1,9 @@
+module
+public import MathFin.Probability.Brownian.Ito.ItoIntegralLocality
+public import MathFin.Foundations.ItoIntegralCLM
+public import MathFin.Foundations.ItoIntegralProcessGeneral
+
+@[expose] public section
+namespace MathFin
+alias itoIntegralCLM_T_eq_itoProcessCLM_of_vanishes_after := itoIntegralCLM_eq_itoProcessCLM_of_vanishes_after
+end MathFin

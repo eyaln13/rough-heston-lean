@@ -1,0 +1,779 @@
+Lean (version 4.35.0, arm64-apple-darwin24.6.0, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+rough-heston-public-shelean 60a63972f07986442801838fa78e758e2ccc6303
+rough-heston-public-mathfin cbe842dda1e71fd7173f3325971796686dbf7feb
+mathlib e91b128082cc221d6432a6a5aadcd3243af8e76c
+BrownianMotion 497e5e2a60450796f75ab920e6c33addae4d644d
+
+b9fc0b9a62f94aa1e3f7e38a7aef103d49c936ea8ab19e03c61e00dad81d978a  ActualAgePulseStoppedLaw.lean
+'RoughHeston.GirsanovPort.actual_age_pulse_stopped_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.actual_age_pulse_stopped_law_with_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+aea00957a66845fc43ccdcd81ebacdcb15c3b1671a2183031ea47c5592c758b0  ActualBirthTraceStoppedOccupation.lean
+'RoughHeston.GirsanovPort.actual_birthTrace_stopped_competitor_positive_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+46ba6a77e13e6e15f0dbe2472334e54d705a1bb21d64b6ff230fc817995c7515  ActualCappedLawOnBirthTrace.lean
+'RoughHeston.GirsanovPort.actual_capped_law_on_birth_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+eec3d9fab96fd2516e3d0d07110d0403e820096b6b18501932c6935310ef4dd4  ActualFocalBlockMeans.lean
+'RoughHeston.GirsanovPort.uniform_focal_biased_block_means_of_regular_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.uniform_focal_biased_block_means_of_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+629fc4be31f11393f39f1c962291388a972cf217f5ba4b3a0178aa1ddd9ee9dd  ActualFocalBurst.lean
+'RoughHeston.GirsanovPort.exists_focal_burst_constants' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+54583ac3c84d8fb4d989d3a5e7462c7d1d4ac9cc6faacd3cd1673a626a1f4839  ActualStoppedAffineTransport.lean
+'RoughHeston.GirsanovPort.actual_stopped_competitor_positive_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+70e47700cb0e3d625f255a78e1b4e58feb61b370c36a8edbe9e8267a78760e80  ActualStoppedPointAffine.lean
+'RoughHeston.GirsanovPort.actual_original_stopped_point_affine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.actual_original_stopped_point_affine_of_joint_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+a4b5e1d598efaf04fe5b674e84d2c40721e2312776101442c63f5b8f51e2d457  ActualTwoTiltVarianceMoments.lean
+'RoughHeston.GirsanovPort.actual_two_tilt_variance_first_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+27495cb337913c2050ebdc9da76f3f30e0b581ddc56b2c714a3a1ab757d33b41  AffineContinuousEnergyClock.lean
+'RoughHeston.GirsanovPort.affineEnergyClock_prior_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.affineEnergyClock_exp_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+84ecb72adf93d716eb5f0918d5841bed702f4d8878a384571861276fb78bee2e  AffineDensityEnergy.lean
+'RoughHeston.GirsanovPort.second_moment_le_of_doubled_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+7c287c622679528e1095a39392c2413c6ea3144b29e1f5f62848de39ff4035ab  AffineJointRepresentationOfMoments.lean
+'RoughHeston.GirsanovPort.joint_exp_representation_of_moment_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.joint_exponential_pairing_of_conditional_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+9cb6fa6b8a5fd2c59511fcd326680f2a592c54960f52d0722b68b82c5d514b76  AffineNativeConditionalSubprobability.lean
+'RoughHeston.GirsanovPort.native_after_density_condExp_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+7f85673a3c401e64727511d1a0da7530e5294b8cb43544ee88f9691f5964a773  AffineNativeContinuousRepresentation.lean
+'RoughHeston.GirsanovPort.continuous_bounded_native_exp_joint_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+20552ccc5f3bb59fe5f87f6e76265a94a16807b8d2560fa0bd8ce71b41ac7e01  AffineNativeDoubled.lean
+'RoughHeston.GirsanovPort.native_density_condExp_le_prior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.native_density_sq_eq_doubled_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+b7826f407aaadb652ade5ad9cd150119402fbd0194a5f24c1fb3ade162eb1ad4  AffineNativeProjectionPairing.lean
+'RoughHeston.GirsanovPort.native_exponential_pairing_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+e09f9a437177c96a558cf4e250769565298ebbe1123a7819364eba4f51638768  AffineNormalizedStop.lean
+'RoughHeston.GirsanovPort.ae_joint_of_ae_sample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.normalized_affine_test_at_stop' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+fa6e4fd5401e5af572f658d4a150b5ce59822ca43654db4e53749ea0a80b35b9  AffineObservationClock.lean
+AffineObservationClock.lean:35:0: warning: automatically included section variable(s) unused in theorem `RoughHeston.GirsanovPort.stoppedAffineTestRow_zero_extension`:
+  m
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit m in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'RoughHeston.GirsanovPort.reflected_riccati_zero_extension_memLp_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.affine_observation_stop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.stoppedAffineTestRow_zero_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+c249e64053b93d9c339b2555222f03407f4294fe6379627381648d02f2385532  AffinePointCompatibleRows.lean
+AffinePointCompatibleRows.lean:42:5: warning: Variable name `ha₀` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha₀
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'RoughHeston.GirsanovPort.affine_point_compatible_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.affine_point_compatible_prefix_of_joint_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.affine_point_prefices_include_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+4b3f226b032f281413b889b03672826ccb5053db6c484b57501b40a7789b33c3  AffinePointPathData.lean
+'RoughHeston.GirsanovPort.affine_point_density_path_of_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+4d7ea8eef6880277ed9947bf9a26c8dfcf2044cdb1ff445f02562b47fa27d539  AffinePointTimeEnergy.lean
+'RoughHeston.GirsanovPort.reflected_riccati_memLp_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+41efbcc222ad8b145ebd7779405c6f06b0d985d50a25c829479d774de19af667  AggregateCenteredIncrementRate.lean
+'RoughHeston.GirsanovPort.fractionalCenteredIncrementCap_ne_top' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.aggregate_centered_increment_lintegral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+b58a0aeee49b9cd19387e7c4030b66bdcd969c93195cd5e3a80f42e7f3c2d4c0  AggregateDyadicVarianceMoments.lean
+'RoughHeston.GirsanovPort.aggregateVariance_dyadic_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+afaef4f9f1cf81864c955f955b40bf63ae75494a5d72b035d11c5e4ce792af8c  AggregateFractionalNoisePowers.lean
+'RoughHeston.GirsanovPort.heston_fractional_noise_increment_even_power_of_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+d4bfc3cc1a911c62e2dc6dd838109e4d60944f871c418d80a3af3441b865ebd2  AuditCappedTransport.lean
+'SHEStochastic.ScalarEnergyCapGirsanovLaw.law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SHEStochastic.ScalarGirsanovCoordinateShift.finite_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SHEStochastic.ScalarGirsanovCoordinateShift.primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SHEStochastic.ScalarGirsanovCappedTransport.change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SHEStochastic.ScalarGirsanovLocalization.change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.native_cap_change_with_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.nativeCoordinate_frozen_martingales' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.jointCappedGirsanov' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+5eff9f80a750e330a28ee9737362306a18eb5d72734d8a08322980123c486963  AuditNativeCap.lean
+'SHEStochastic.NativeBoundedExponential.bounded_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SHEStochastic.NativePastExponential.conditional_mean_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SHEStochastic.NativeGirsanovTilt.probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.nativeEnergy_ae_eq_hestonEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.nativeTilt_preserves_past_and_bounds_events' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.nativeScalarTilt_eq_jointWithDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+13f09a37625dd4fb4ad95019fec4d9571d4a2ca2a8f58b4b967e36dc6fdfafb6  BirthTraceAffineBirthExpectation.lean
+BirthTraceAffineBirthExpectation.lean:48:0: warning: automatically included section variable(s) unused in theorem `RoughHeston.GirsanovPort.birthTrace_fourth_moment_bounded`:
+  [IsProbabilityMeasure P]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure P] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'RoughHeston.GirsanovPort.point_test_trace_birth_sizeBias_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.birthTrace_fourth_moment_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+4f328f2c7e4bf4d2bddcd10c16f6ea8db43ef025a2ee348987fb25255a25d514  BirthTraceAffineRow.lean
+BirthTraceAffineRow.lean:45:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+BirthTraceAffineRow.lean:46:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'RoughHeston.GirsanovPort.birthTrace_stopped_affine_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+c932320a76ca1436d982d1838700adda32f377372c556726c9076e8dc6391c94  BirthTraceItoClock.lean
+BirthTraceItoClock.lean:40:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+BirthTraceItoClock.lean:41:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+BirthTraceItoClock.lean:71:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+BirthTraceItoClock.lean:72:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'RoughHeston.GirsanovPort.birthTrace_jointIto_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+fcabd9b8cc811d2802dbe34985c41da023b33a8165c1956183247540221341e9  BirthTraceStoppedObservation.lean
+'RoughHeston.GirsanovPort.isStoppingTime_physicalObservationOfTrace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+d960ae55b9b28e031675ec99c69a8ad9df286d6e259f3a2d743b22a49f717cc1  BoundedNativeExpEnergyRepresentation.lean
+'RoughHeston.GirsanovPort.bounded_native_exp_joint_representation_of_energy_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+e61971bc914317d84c4fab8325eaae229b08fd812ec195aa3eeffc14f010f318  BridgeCappedGirsanovTransport.lean
+han/BridgeCappedGirsanovTransport.lean:98:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'RoughHeston.GirsanovPort.jointCappedGirsanov' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+defac6657623e7316c21589d2065ca2790fe922cae9335e1871d8010d0018fa1  BridgeFilteredItoJoint.lean
+han/BridgeFilteredItoJoint.lean:15:0: warning: automatically included section variable(s) unused in theorem `RoughHeston.GirsanovPort.filteredPredictableMeasure_eq_joint`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'RoughHeston.GirsanovPort.filteredPredictableMeasure_eq_joint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.filteredSimpleAssembly_eq_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.filteredItoIntegralCLM_eq_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+19076c75acb2a1f5de7d088aeb2a2c6612dc61cfcdfd329e484de5cdb2266bf5  BridgeFiniteScalarItoJoint.lean
+'RoughHeston.GirsanovPort.finiteScalarInputMeasure_eq_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.processMeasure_eq_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.finiteScalarIntegralCLM_eq_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+11ce0176b7d092616916cd5fb273decde4b6bd038118942ad605994d6069aefc  BridgeGirsanovDensityToJoint.lean
+'RoughHeston.GirsanovPort.nativeScalarDensity_ae_eq_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.nativeScalarTilt_eq_jointWithDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+5b4b36fd33d9ddb93e61cd3d2dfc551fa570230960399bdd2b8248683ac61c9f  BridgeNativeCapDensity.lean
+han/BridgeNativeCapDensity.lean:46:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'RoughHeston.GirsanovPort.nativeEnergy_ae_eq_hestonEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.nativeTilt_preserves_past_and_bounds_events' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+c66b99d40d7316822a595c81eaa47759a659f0bfa762e552fe42119ef1cfb943  BridgeScalarNative.lean
+han/BridgeScalarNative.lean:57:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'RoughHeston.GirsanovPort.scalarNativeFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.exists_scalarNativeFamily_of_brownianOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.scalarHilbertBasis_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.scalarNativeIntegral_eq_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+84f377755f27ff159c9cbb70e2da431739abdd6205d527d27a615ae45ca8cd60  BrownianSampling.lean
+'RoughHeston.GirsanovPort.measurePreserving_euclideanReindex_multivariateGaussian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.hasLaw_sampled_preBrownian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.indep_repeated_increment_of_filtered_preBrownian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+c9436ddba4334c02e543e67b5b5d47c9ab1e1cfb5bdf08c314893bee9d72c405  CappedDriftDensityMoment.lean
+'RoughHeston.GirsanovPort.stopped_drift_change_density_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+af6e32c192c326394014619a245c352da5ca4d691fbe3507776c3c9a7208c848  CappedLawFromPhysicalCertificate.lean
+'RoughHeston.GirsanovPort.capped_law_from_physical_certificate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+d963add3d509d4b50427c338d1f57345253cb5a6fdd9fbd8bc150b089a07446a  ContinuousJointAmplitude.lean
+'RoughHeston.jointAmplitudeSectionLp_eq_prior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.exists_continuous_joint_amplitude_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+5864798c2caa73478ea6574e8250401049817de510aa6460d247a969ded01556  DominatedLpPullback.lean
+'RoughHeston.GirsanovPort.dominatedLpPullback_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+c17e025ff04433cfa31b39bc6eb6c12a39cb25d55a86e79d83fadac6a99c7a89  ExplicitLebesgueAggregateTightness.lean
+'RoughHeston.lebesguePulse_pairLaw_fourth_and_centered_increment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+a7d080f34a92b29065834f0bbe53c70c016175d2b8fb9a75386e4419cd9f9bff  ExplicitLebesgueBirthEndpoint.lean
+'RoughHeston.explicitLebesgueUniformGap_of_birthLowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.theorem1_1_of_explicitLebesgueBirthLowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+755b99d6abe8f28ed5e97dc920f0b23dc2fdca9c93e2b1f1e43c73bb8acb82ad  ExplicitLebesgueCompanionMoment.lean
+'RoughHeston.explicitLebesguePulseLaw_companion_dyadic_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+93e757cc25795bd1edb046f46662af31ab4b63f77788fa15024d1bfbbd2ebf3d  ExplicitLebesgueMeshLimit.lean
+ExplicitLebesgueMeshLimit.lean:83:16: warning: `Set.preimage_setOf_eq` has been deprecated: Use `Set.preimage_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵p̵r̵e̵i̵m̵a̵g̵e̵_̵s̵e̵t̵O̵f̵_̵e̵q̵p̲r̲e̲i̲m̲a̲g̲e̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+'RoughHeston.regular_heston_of_explicitLebesguePulseLaws' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.separated_heston_of_explicitLebesguePulseLaws' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+bda1d62b6d7d78452d79713caf9f394ef3375dc387ec74c6dae59d0ab9b5389f  ExplicitLebesgueUniformGapEndpoint.lean
+'RoughHeston.regularHestonPair_of_explicitLebesgueUniformGap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.theorem1_1_of_explicitLebesgueUniformGap' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+a673f0aa348ae5a9dd5aec4fb1fd4861e94e3668084bd146476f3130f6e3bc7c  FiniteBrownianFreezing.lean
+'RoughHeston.GirsanovPort.finiteBrownianOn_freeze' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+cf4f92b2c553b6b7443c28aacc7af3bc078b5afb67ab299e9ff66fdf3f0a7f71  FiniteBrownianGridRate.lean
+han/FiniteBrownianGridRate.lean:77:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+han/FiniteBrownianGridRate.lean:74:8: warning: automatically included section variable(s) unused in theorem `_private.FiniteBrownianGridRate.0.RoughHeston.GirsanovPort.finiteBrownian_gridQuadraticSum_memLp`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'RoughHeston.GirsanovPort.finiteBrownian_gridQuadraticSum_L2_rate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.sizeBiased_oldBrownian_gridQuadraticSum_L1_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+81c619b5dc4662a09fb30df5228611ba3fcde9f7b84ecc8ee4bc53c5b1461c52  FiniteHorizonBrownianContinuous.lean
+'RoughHeston.GirsanovPort.exists_continuous_modification_of_brownianOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+e0bcb6008bf758bfc856acf76aa8d979feb9f872c4aace03bb65c014f547f7a9  FiniteHorizonBrownianSampling.lean
+'RoughHeston.GirsanovPort.sample_map_eq_of_brownianOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.hasLaw_sampled_brownianOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.indep_repeated_increment_of_brownianOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+ec72fff9ae4c668895c4e416c0821cad38d8ac85a89241b47e0850e5bf4e647b  FocalBandMoment.lean
+FocalBandMoment.lean:53:6: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'RoughHeston.GirsanovPort.focal_noise_on_band_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+810cd4d13acece884cf38ac1f70964039f1bc760a6a87e906c75c0c68830ab59  FocalNoiseIncrementMoment.lean
+'RoughHeston.GirsanovPort.focal_noise_increment_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+f3d12a38d34d5d97d4ec9e64d97531d8e6eeea4ee4e77e1526fcc1b577467e87  FocalPowerMomentStep.lean
+FocalPowerMomentStep.lean:103:45: warning: Unused tactic linter: `<;>` should be replaced with `;` or be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+FocalPowerMomentStep.lean:103:45: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'RoughHeston.GirsanovPort.focal_cluster_doubling_of_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+0e89286ad54f9b4e98bd865dcb8a8e4c54795c688c995fb3faa7e8ccb7b3f9b7  FocalPulseStopAtAge.lean
+'RoughHeston.GirsanovPort.FocalPulseDynamics.frozen_at_cap_age' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+57f1929476196c5b68ea2ec168043c692242f7a1c3bfa47865dedd3f843b4c79  FocalPulseVerifiedBurst.lean
+'RoughHeston.GirsanovPort.rectangularPulse_uniform_burst_of_regular_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.rectangularPulse_uniform_burst_of_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+69726c0182068d395f00de3f9a5611c20b45b3328eb557acba20cd0bb8069879  FocalSizeBiasBrownian.lean
+'RoughHeston.GirsanovPort.focalDriverDrift_sizeBiasedBrownian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+e3dea2fbcc4f9bfffffcafc946d305570f301e2d97ae836eaf87487754078908  HestonContinuousLogMartingale.lean
+'RoughHeston.exists_heston_continuous_log_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+61bafc2ab0a6ae8efcaa2044bc0796261a52bb4978cbefb4092fc4e7bc8a596b  HestonKernelNoiseMoment.lean
+han/HestonKernelNoiseMoment.lean:35:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'RoughHeston.GirsanovPort.heston_sqrt_row_moment_time_profile' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+8831aa0b8516a989c297d2e6fd577bbe4b0763232b9e677ed3632bc481231fed  HestonPriceSDE.lean
+'RoughHeston.GirsanovPort.exists_heston_price_sde' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+5b3a520383e6f9296fab44d6bcc6df0adda494e61e84f74b005e222dd918dc4b  HestonRealKernelNoiseMoment.lean
+'RoughHeston.GirsanovPort.heston_sqrt_row_real_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+309c88b9d58026416ccc19c13cfdbf72e5eaf2528502f113124fb5a35b443ff2  JointAffineStopAfterBirth.lean
+'RoughHeston.GirsanovPort.jointIto_random_stop_of_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.jointIto_random_stop_after_birth' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+d7a687a6e1f8fc4035323fafa00dd9cc2e3a053fdc90da4ad9a20c0ad7a7a7f0  JointAmplitudeClocks.lean
+'RoughHeston.stoppedAmplitudePrimitive_adapted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.stoppedAmplitudePrimitive_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.stoppedAmplitudePrimitive_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.amplitudeCutoff_actual_clocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+2a1999a45c9b1175eea7bf6f4c0c5d513a19b95a4bd1ca2a631617147cdc5c8a  JointItoPowerMoments.lean
+'RoughHeston.GirsanovPort.jointIto_power_two_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+0d6f366b271ef587d3026db804f1564786accb69d008f1bdf582e4e85932f504  JointStoppedFlatClock.lean
+'RoughHeston.GirsanovPort.martingale_terminal_eq_stopped_of_flat_clock' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+a78d5ad032e3b22cd473ce0dbd40080cc48f37b658f6551ed609ba6ec070bfcd  LocalizedPriceExponential.lean
+'RoughHeston.GirsanovPort.stopped_joint_stochastic_exponential_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.localized_joint_price_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+53253efe6aaf8b75e50f59f9d0108f4afd725c53cd83dfccc2894e464581c22a  LpBirthWindow.lean
+'RoughHeston.GirsanovPort.jointAfterCLM_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.jointIto_rectangle_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+4f743fa97f2e2246a7eddd9786377a33945ffb4683b4b847f564d07e269bc6aa  MeshPhysicalStopCertificates.lean
+'RoughHeston.FractionalFixedMeshLaw.meshPhysicalStopCertificates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+e7a21fbf921ac26a1d7fd7e3ceb98fd6850ec873fea9045328e2bd80e5d95c86  NativeBrownianMartingales.lean
+'RoughHeston.GirsanovPort.nativeCoordinate_brownianOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.nativeCoordinate_frozen_martingales' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+02dae5faf0f8c776bae0ea70c49dd2ccd8ff09d9a62c75d0a41d50c41aa25ef9  NativeCappedChangeWithShift.lean
+'RoughHeston.GirsanovPort.native_cap_change_with_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+ac4526443cb759693594e649ff4aa2234aa496c1da8186d7d133c37f70f5bcf9  NativeJointRandomStop.lean
+'RoughHeston.GirsanovPort.native_joint_integral_random_stop' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+a71a04f6ccf728a5a22be67734a93953327fe1fdd058b58e54c91da22206b995  NativePointTerminalLimit.lean
+'RoughHeston.GirsanovPort.native_prior_tendsto_at_horizon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.terminal_joint_repr_of_preterminal_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+3386c28b63938a6bdd024885939aad9f3570c621ada184e442d2f3c6b3a276d3  NativeShortHorizon.lean
+'RoughHeston.GirsanovPort.truncateScalarNativeFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.jointIto_short_horizon_eq_of_supported_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.jointIto_short_horizon_eq_prior' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+6185f026c23f7b821a83456274711435672bc3158dd63181186667404f3de85f  NativeVarianceAmplitude.lean
+'RoughHeston.GirsanovPort.native_amplitude_of_joint_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.native_variance_amplitude_of_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+db0ed25b174e816b4181d935efab892189f0838a3c826f6ddd5af545f63a15b8  NativeWeightedAffinePrefix.lean
+'RoughHeston.GirsanovPort.native_weighted_affine_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+755a054a4bd1ad78f8afd4ff68e082dd2d5407e31e6c20b162ca2c646be99850  PhysicalBirthStopCertificate.lean
+'RoughHeston.GirsanovPort.finiteBrownianOn_shorten' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+7568be3e87983e3bd0fd79c008ba0d0ad7b5c649dc43611b4e9c743b91f2e336  PhysicalCompanionStopData.lean
+PhysicalCompanionStopData.lean:17:0: warning: automatically included section variable(s) unused in theorem `RoughHeston.HestonBoundaryProcess.physicalStopData`:
+  [IsProbabilityMeasure P]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure P] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'RoughHeston.HestonBoundaryProcess.physicalStopData' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+24ab61e18e0ee1282b471dbf88c96a29644b1e1bc4844616321f7c9ff881df7a  PhysicalSingleBirthTraceSeparation.lean
+PhysicalSingleBirthTraceSeparation.lean:44:31: warning: Variable name `hA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+PhysicalSingleBirthTraceSeparation.lean:44:59: warning: Variable name `hPA` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hPA
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+PhysicalSingleBirthTraceSeparation.lean:46:17: warning: Variable name `hε` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hε
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+PhysicalSingleBirthTraceSeparation.lean:46:28: warning: Variable name `hεle` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hεle
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+PhysicalSingleBirthTraceSeparation.lean:64:2: warning: Try this: intro Ω m P _ F _ _ b A hA hPA _ ε hε hεle B M Y C Jp Up Xp Cm j J U Ccl W μ G phys focal dyn hUJ hJ hParts
+  hBoundary
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+'RoughHeston.GirsanovPort.uniform_physical_single_birth_trace_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+a40557adda462a03ff7edf906042ec609a3b24e865a2b5d6fd8863e61264a3d8  PositiveFocalMassVersion.lean
+PositiveFocalMassVersion.lean:14:0: warning: automatically included section variable(s) unused in theorem `RoughHeston.GirsanovPort.exists_everywhere_positive_focal_mass`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'RoughHeston.GirsanovPort.exists_everywhere_positive_focal_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.PulseStoppedLaw_change_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+dbf8a7702b603348077db8a2e172b179bf0cdc26435df895e193684f5bc537f1  PredictableBirthTimeMeasure.lean
+PredictableBirthTimeMeasure.lean:72:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+PredictableBirthTimeMeasure.lean:87:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+PredictableBirthTimeMeasure.lean:88:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'RoughHeston.GirsanovPort.hestonTimeMeasure_add_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.birthTrace_jointPredictableMeasure_shift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+2a4cd7ff28209163462a7e79914c437106dd0d876e9649b739bcd41e4c3aa2d1  PreterminalAffineNoiseRepresentation.lean
+'RoughHeston.GirsanovPort.affine_preterminal_density_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+f8e1aec1f876fee01ed3500e565dde0a0aaede429fe4c9f0b6fcce7f5d243f0b  PulseEnvelopeHorizon.lean
+'RoughHeston.GirsanovPort.envelopeStop_frozen_focal_mass_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+e35320866e5bc3a6c5196d83d9f1b3907d47420354c41f80ad447a5b0d196128  RawBirthTracePulseStoppedLaw.lean
+RawBirthTracePulseStoppedLaw.lean:130:35: warning: This simp argument is unused:
+  Z
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [focalDriverDrift, hp, X]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'RoughHeston.GirsanovPort.raw_birth_trace_pulse_stopped_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+b96516fcc8bc1064c2e28c520478c8db509b9f2a7874f1cbe8bac14c75ce7405  RawFocalFirstTilt.lean
+'RoughHeston.GirsanovPort.raw_focal_first_tilt_on_birth_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+3cdfada4193a7884625d7755ce665628e055880c83c53b7dd9f054da6a2755a6  RawOriginalPointTests.lean
+'RoughHeston.GirsanovPort.raw_original_point_tests_at_birth_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+08845ef6a98ecc944f98848bd7da6b108e8335930525d165eb2277f7551bc90f  RectangularPulseBlockSup.lean
+'RoughHeston.GirsanovPort.rectangularPulse_uniform_old_block_sup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+22b0629c8006e60bbb240dfeda684d623748bc872c9ec901f379a97fb69a9ed4  RectangularPulseIncrementLaw.lean
+RectangularPulseIncrementLaw.lean:53:51: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+RectangularPulseIncrementLaw.lean:81:26: warning: This simp argument is unused:
+  hz
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [mean, hstart]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+RectangularPulseIncrementLaw.lean:76:8: warning: Unused tactic linter: `change (0 : Lp ℝ 2 (jointPredictableMeasure F P 0)) z = _` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'RoughHeston.GirsanovPort.rectangularPulse_centered_increment_law' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+81b555c4fa9670464ede4e841b1673e75da22c959d7e19baf94d2f2c6b4f936b  RectangularPulseMomentLaw.lean
+'RoughHeston.GirsanovPort.rectangularPulse_cluster_dyadic_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+1e31fc708367856fbefd5f459c517ab311060f20d7bd9f89fcee769208fcd72a  RoughHestonFullTheorem.lean
+'RoughHeston.theorem1_1_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+125e021aff9b1a9549b08116f78640aabc35977fefcd8f6d3989eba012876ff9  RoughHestonPriceFromVariance.lean
+RoughHestonPriceFromVariance.lean:17:0: warning: automatically included section variable(s) unused in theorem `RoughHeston.GirsanovPort.affineEnergyClock_sqrt_variance`:
+  m
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit m in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'RoughHeston.GirsanovPort.rough_heston_price_of_joint_log_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+f953799bab213684e3554a6adf0bba5749a447047fa8eb7b2ca0607358989d25  RoughHestonVarianceTheorem.lean
+'RoughHeston.explicitLebesgueBirthLowerBound_proved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.theorem1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+e8eb461f31ca5306968ad19b410ae02d07fc46c6dfdfb52a215dea001c048c9e  SinglePulseTraceSeparation.lean
+SinglePulseTraceSeparation.lean:42:22: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SinglePulseTraceSeparation.lean:73:26: warning: `Set.setOf_and` has been deprecated: Use `Set.ofPred_and` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵a̵n̵d̵o̲f̲P̲r̲e̲d̲_̲a̲n̲d̲
+SinglePulseTraceSeparation.lean:54:2: warning: Try this: intro Ω mΩ P inst F M U C W ε Y hε hεle hnull h hYm hY₀ hStop
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+'RoughHeston.GirsanovPort.uniform_single_pulse_trace_separation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+9f0ce8da2d3573f4b9685fdfd8764fee850ff1d6f94d08316b9103af431058f5  SizeBiasBirthTestExpectation.lean
+'RoughHeston.GirsanovPort.integral_sizeBiasedLaw_eq_at_birth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.point_test_birth_sizeBiasedLaw_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+1eed01c3ce3caf97cac3c770181624ece8e88b9e69ab4f9f2e912ce969a1212c  SizeBiasBrownianClock.lean
+han/SizeBiasBrownianClock.lean:230:8: warning: automatically included section variable(s) unused in theorem `_private.SizeBiasBrownianClock.0.RoughHeston.GirsanovPort.sizeBiasedShift_brownianOn_of_clock`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'RoughHeston.GirsanovPort.sizeBiasedShift_frozenClock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.sizeBiasedShift_brownianOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.sizeBiasedShift_brownianOn_nullAugmentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+ad7068ebb6e6bf34b6b1fc50c403a0d3d073ea6954c0a589dbe2900d3514e2bb  SizeBiasConditionedBirthExpectation.lean
+'RoughHeston.GirsanovPort.point_test_conditioned_birth_sizeBias_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+70c71bef12b452e5881925e84e145e03d260fced47da93085ca14da055721294  StoppedAffineTestTransport.lean
+'RoughHeston.GirsanovPort.stopped_occupation_of_original_affine_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+974bd8a4d5762f51f13c8883e0c465d2c4f4eeeacfa621eb968fd8620cd9aa53  StoppedCompetitorGirsanov.lean
+'RoughHeston.GirsanovPort.exists_drift_change_of_stopped_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.exists_stopped_competitor_girsanov' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.stopped_competitor_change_at_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+e85871e4bd255922c80ff6d9f3d66853b9966c718130401981b1a13aa4c18152  StoppedCompetitorSeparation.lean
+'RoughHeston.GirsanovPort.stopped_occupation_from_affine_tests' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.stopped_competitor_burst_separates' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+da0cf536c08ecc713a4523c86aa6bd178bc5586d6558ef15e1ca953276b29c66  StoppedExponentialEnergy.lean
+'RoughHeston.GirsanovPort.affineEnergyClock_controlThrough' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.affineEnergyClock_controlThrough_stronglyAdapted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.GirsanovPort.affineEnergyClock_exp_identity_controlThrough' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+15ba19374ed1929bb676643982fa6410f7967922c38afa615815e97bbed9f6a8  StoppedJointStochasticExponential.lean
+'RoughHeston.GirsanovPort.stopped_joint_stochastic_exponential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+52d74d5204a1a72503605ede4435d48f0f6dcccfecfc2d6494c2bef03d36d8e3  StoppedPredictableEnergy.lean
+han/StoppedPredictableEnergy.lean:20:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'RoughHeston.GirsanovPort.memLp_two_joint_of_pathwise_energy_cap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+71ae9ea265676db13195a60dd939113940caa65a2461b38ddf2c61abd3097f38  StoppedTransformOccupation.lean
+'RoughHeston.GirsanovPort.drift_pairing_through_stop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.stopped_test_mean_under_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+3c2fd56ac0410d41f6a3b4cf2eec74efac1537b4d949f3d76f5b00af96764a1c  TwoTiltVarianceMoments.lean
+'RoughHeston.GirsanovPort.integral_le_under_square_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.GirsanovPort.uniform_necessary_moments_under_two_tilts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+d249136f4bd1198b582617740f285cc97d12e0b97e05c5341b73aa214488c152  UniformCompanionSecondMoments.lean
+'RoughHeston.uniform_explicitLebesgueCompanion_second' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.uniform_explicitLebesgueCompanion_zero_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]

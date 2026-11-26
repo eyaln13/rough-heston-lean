@@ -1,0 +1,144 @@
+Lean (version 4.35.0, arm64-apple-darwin24.6.0, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+MathFin
+cbe842dda1e71fd7173f3325971796686dbf7feb
+mathlib
+e91b128082cc221d6432a6a5aadcd3243af8e76c
+910f8466c15c8e6394f64096c1287ecfc2420c0bb6334f9d7c00c219fd3dff81  CommonDriver.lean
+290f73281a9e187c164c6b7c4d94823b02794d48c2cb32a708c00c78946a9929  CommonDriverConstruction.lean
+43b3a6ffce55aeb025f3c71a90c066ac949844015fffab0ae1f81a3d6df46318  CommonDriverLimit.lean
+863ffc3dbe9015993ee63c8be5163821ea5963fa7e6f25e0393807bb66a33f6a  ProductFiltrationLift.lean
+8f9670c4c1dfe853366f5e3973dac68536fa0ed6d0e71e621567ae32e22b7c25  RankOneCompensators.lean
+735db53c538f69c035008ab310b9bb6903225b2468e9a732e0abd53dd336ff0b  StochasticCompletion.lean
+56af15b203e311613e73b392c909234b492959be7a658b8ac3f8e6063f2b44e1  StochasticCovariation.lean
+35fcaa70a6a6e6b0229715f566f864a1e34c426f4bca72f0a55dd941cd29ad33  StochasticFoundation.lean
+e9eaf938a44426067580e0437c5d3852301b248197b7786d88cc1bd26ee208d3  StochasticProcess.lean
+bdce7cfea147516b8b19b6a8730ed761c57518b785cb251561616f7db94fb850  TheoremStatement.lean
+6b360d7ab2d34a04ebb05336c03d76957ff3611e583317a40b3fdb447c5aa7aa  Verification.lean
+
+Verification.lean
+'RoughHeston.comparison_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.occupation_cost_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.normalized_sum_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.normalized_sum_covariation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.tilt_cost_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.count_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.cluster_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.fractional_beta_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.separation_of_weak_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.fractional_kernel_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.fractional_memory_negative_at_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.fractional_first_contact_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.undo_size_bias' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.remove_bad_events' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.second_moment_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.caputo_terminal_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.separation_from_tilt_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.weak_limit_distinct_from_count_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.positive_probability_of_laplace_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.volterra_convolution_assoc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.fractional_causal_kernel_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.fractional_volterra_triangle_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.fractional_volterra_inverts_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.volterra_shifted_kernel_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+StochasticFoundation.lean
+'RoughHeston.runningSum_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.compensated_running_product_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.runningSum_cross_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.centered_predictable_increment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.predictable_increment_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.zero_of_square_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.indistinguishable_of_ae_eq_on_dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.conditional_mean_martingale_increment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.conditional_covariance_of_compensated_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.grid_integral_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.grid_integral_cross_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.martingale_of_past_set_integrals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.martingale_of_timewise_L1_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.zero_of_localized_square_martingales' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.grid_integral_ito_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.grid_integral_invariant_under_doubling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.grid_integral_sub_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.product_L1_limit_of_L2_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.compensated_product_martingale_of_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+StochasticCompletion.lean
+'RoughHeston.NestedDyadicGrids.integral_at_refinement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.NestedDyadicGrids.predictable_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.grid_integral_square_compensator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dyadic_terminal_refinement_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dist_toLp_two_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dyadic_terminalLp_refinement_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.exists_unique_dyadic_terminal_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dyadic_terminal_limit_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.uniform_dyadic_terminal_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dyadic_terminal_limit_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dyadic_refinement_energy_le_of_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.uniform_dyadic_coarse_cell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.exists_unique_integral_of_uniformly_continuous_weights' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.dyadic_refinement_energy_le_of_bounded_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.exists_unique_integral_under_modulus_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.exists_unique_integral_of_bounded_continuous_paths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+StochasticProcess.lean
+'RoughHeston.stochasticStep_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.gridIntegralProcess_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.gridIntegralProcess_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.gridIntegralProcess_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.martingale_limit_of_terminal_L2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dyadic_integral_martingale_of_terminal_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.countable_martingale_maximal_ineq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.ae_uniformCauchySeqOn_of_terminal_increment_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.continuous_martingale_version_of_L2_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.exists_continuous_integral_of_bounded_continuous_paths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+
+StochasticCovariation.lean
+'RoughHeston.stochasticStep_compensated_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.gridIntegralProcess_compensated_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.adapted_compensator_of_compensated_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.grid_density_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dyadic_density_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.dyadic_compensator_density_L1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.continuous_integrals_compensated_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+CommonDriver.lean
+'RoughHeston.common_driver_regularized_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.difference_square_martingale_of_common_compensator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RoughHeston.indistinguishable_of_common_compensator' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+CommonDriverLimit.lean
+'RoughHeston.martingale_freeze_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.continuous_driver_of_pairwise_compensators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.driver_compensator_of_dominated_density_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+CommonDriverConstruction.lean
+'RoughHeston.exists_normalized_driver' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.recover_martingale_from_driver' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+RankOneCompensators.lean
+'RoughHeston.rank_one_aggregate_compensators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.amplitude_mass_integrable_of_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.rank_one_pair_has_common_driver' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+TheoremStatement.lean
+RoughHeston.Theorem1_1 : Prop
+'RoughHeston.Theorem1_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.hestonKernel_memLp_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.heston_variance_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.heston_cutoff_weight_L2' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+ProductFiltrationLift.lean
+'RoughHeston.martingale_prod_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.martingale_prod_snd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.martingale_prod_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RoughHeston.measure_separation_prod_fst' depends on axioms: [propext, Classical.choice, Quot.sound]
